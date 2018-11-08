@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @choose_answer.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @choose_answer.body %>
+</p>
+
+<%= link_to 'Edit', edit_choose_answer_path(@choose_answer) %> |
+<%= link_to 'Back', choose_answers_path %>

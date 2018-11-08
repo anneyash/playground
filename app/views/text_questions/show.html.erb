@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @text_question.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @text_question.body %>
+</p>
+
+<%= link_to 'Edit', edit_text_question_path(@text_question) %> |
+<%= link_to 'Back', text_questions_path %>
